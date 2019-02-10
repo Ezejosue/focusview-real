@@ -5,13 +5,24 @@
    
 }
 
-
 .page-footer{
-background-color: #45526e;
+   background-color: #45526e;
+}
+
+.modal-header, h4, .close {
+  background-color: #5cb85c;
+  color:white !important;
+  text-align: center;
+  font-size: 30px;
+}
+
+.modal-footer a {
+  background-color: #5cb85c;
+  
 }
 
 #link a{
-color: white;
+  color: white;
 }
 #letra div{
    text-align: center;

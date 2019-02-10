@@ -15,6 +15,7 @@
             require('../../core/models/baseheader.php');
             baseheader::bhead();
        ?>
+       
     <!--Esta parte es la del carousel-->
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -231,6 +232,8 @@
         <script src="../../resources/js/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="../../resources/js/popper.min.js"></script>
         <script src="../../resources/js/bootstrap.min.js"></script>
+        <script src="../../resources/js/modals.js"></script>
+        <script src="../../resources/js/modal1.js"></script>
     
     </body>
   </html>
