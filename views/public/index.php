@@ -11,11 +11,13 @@
     <title>Inicio</title>
 </head>
     <body>
+
+    <!-- Llamando la clase y funcion de la herencia del header y nav -->
        <?php 
             require('../../core/models/baseheader.php');
             baseheader::bhead();
        ?>
-       
+    <!-- Llamando la clase y funcion de la herencia del header y nav -->
     <!--Esta parte es la del carousel-->
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -222,11 +224,11 @@
         <br><br>
          <!-- En esta parte se encuentra el footer de la pagina -->
             <!-- Footer -->
+            <!-- Llamado la clase del footer-herencia -->
             <?php
                 require('../../core/models/basefooter.php');
                 basefooter::bfooter();
             ?>
-
             <!-- Footer -->
         <!-- Esta parte es el footer de la pagina donde se encuentran nuestras redes sociales -->
         <script src="../../resources/js/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

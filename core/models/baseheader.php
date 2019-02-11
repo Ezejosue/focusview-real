@@ -12,7 +12,12 @@
                    <input class="form-control mr-sm-2" type="text" placeholder="Buscar">
                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
                </form>
-               <div id="link"   class="collapse navbar-collapse" id="collapsibleNavId">
+               <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#collapsibleNavId">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="collapsibleNavId">
                    <ul class="navbar-nav  mt-2 mt-lg-0 ml-auto">
                    <!-- Trigger the modal with a button -->
                    <button type="button" class="btn btn-outline-success btn-lg" id="myBtn">Login</button>
@@ -73,10 +78,10 @@
                          </div> 
                        </div>     
                      </div>
-                   </div>                    
-                       <li class="nav-item">
-                       <a class="nav-link" href="#">Comprar</a> 
+                     <li class="nav-item">
+                       <a class="nav-link" href="#" style="color: white;">Comprar</a> 
                        </li>
+                   </div>          
                    </ul>
                </div>
            </nav>  
@@ -85,16 +90,19 @@
                <div class="card-body">
                  <ul class="nav justify-content-center">
                    <li class="nav-item">
-                     <a class="nav-link active" href="#home">Inicio</a>
+                     <a class="nav-link active" href="index.php">Inicio</a>
                    </li>
                    <li class="nav-item">
-                     <a class="nav-link active" href="#footer">Contáctenos</a>
+                   <a class="nav-link active" href="productos.php">Productos</a>
                    </li>
                    <li class="nav-item">
-                     <a class="nav-link active" href="#">Nuevos Productos</a>
+                     <a class="nav-link active" href="#footer">Accesorios</a>
                    </li>
                    <li class="nav-item">
-                   <a class="nav-link disable" href="#nosotros" tabindex="-1" aria-disable="true">Sobre Nosotros</a>
+                   <a class="nav-link disable" href="quienes_somos.php" tabindex="-1" aria-disable="true">Sobre Nosotros</a>
+                   </li>
+                   <li class="nav-item">
+                   <a class="nav-link disable" href="ayuda.php" tabindex="-1" aria-disable="true">Ayuda</a>
                    </li>
                   </ul>
                </div>
