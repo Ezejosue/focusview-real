@@ -8,11 +8,14 @@
         <div class="Conteiner">
         <!--esta parte es la barra de navegacion --> 
            <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #000000">
-               <form class="form-inline my-2 my-lg-0">
+           <figure class="logo"> 
+            <img src="../../resources/img/Logo.jpg" alt="Logo">
+            </figure>
+               <form class="form-inline my-2 my-lg-0" style="position: relative; right: 35%;">
                    <input class="form-control mr-sm-2" type="text" placeholder="Buscar">
                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
                </form>
-               <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#collapsibleNavId">
+               <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#collapsibleNavId" style="position: relative; right: 35%;">
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -96,7 +99,7 @@
                    <a class="nav-link active" href="productos.php">Productos</a>
                    </li>
                    <li class="nav-item">
-                     <a class="nav-link active" href="#footer">Accesorios</a>
+                     <a class="nav-link active" href="accesorios.php">Accesorios</a>
                    </li>
                    <li class="nav-item">
                    <a class="nav-link disable" href="quienes_somos.php" tabindex="-1" aria-disable="true">Sobre Nosotros</a>

@@ -24,6 +24,14 @@
 #link a{
   color: white;
 }
+
+.logo img{
+  width: 30%;
+  height: 30%;
+  position: relative;
+  left: 128%;
+}
+
 #letra div{
    text-align: center;
 }
