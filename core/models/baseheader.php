@@ -49,7 +49,7 @@
                              <div class="checkbox">
                                <label><input type="checkbox" value="" checked>Remember me</label>
                              </div>
-                               <button type="submit" class="btn btn-success btn-block"><span class="glyphicon glyphicon-off"></span> Login</button>
+                               <button type="submit" class="btn btn-success btn-block"><span class="glyphicon glyphicon-off"></span><a href="../../views/private/index.php">Login</a></button>
                            </form>
                          </div>
                            <button type="button" class="btn btn-info btn-lg" id="myBtn1">Olvide mi contraseña</button>

@@ -1,0 +1,224 @@
+/* Menu Lateral */
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  
+}
+
+/* Sidebar links */
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+
+/* Active/current link */
+.sidebar a.active {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+}
+
+/* Links on mouse-over */
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+
+/* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+/* En pantallas menos de 700px, el sidebar se convierte en topbar */
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+
+
+/* Botones */
+.circle-tile {
+  margin-bottom: 15px;
+  text-align: center;
+}
+.circle-tile-heading {
+  border: 3px solid rgba(255, 255, 255, 0.3);
+  border-radius: 100%;
+  color: #FFFFFF;
+  height: 80px;
+  margin: 0 auto -40px;
+  position: relative;
+  transition: all 0.3s ease-in-out 0s;
+  width: 80px;
+}
+.circle-tile-heading .fa {
+  line-height: 80px;
+}
+.circle-tile-content {
+  padding-top: 50px;
+}
+.circle-tile-number {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1;
+  padding: 5px 0 15px;
+}
+.circle-tile-description {
+  text-transform: uppercase;
+}
+.circle-tile-footer {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: rgba(255, 255, 255, 0.5);
+  display: block;
+  padding: 5px;
+  transition: all 0.3s ease-in-out 0s;
+}
+.circle-tile-footer:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+}
+.circle-tile-heading.dark-blue:hover {
+  background-color: #2E4154;
+}
+.circle-tile-heading.green:hover {
+  background-color: #138F77;
+}
+.circle-tile-heading.orange:hover {
+  background-color: #DA8C10;
+}
+.circle-tile-heading.blue:hover {
+  background-color: #2473A6;
+}
+.circle-tile-heading.red:hover {
+  background-color: #CF4435;
+}
+.circle-tile-heading.purple:hover {
+  background-color: #7F3D9B;
+}
+.tile-img {
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.9);
+}
+
+.dark-blue {
+  background-color: #34495E;
+}
+.green {
+  background-color: #16A085;
+}
+.blue {
+  background-color: #2980B9;
+}
+.orange {
+  background-color: #F39C12;
+}
+.red {
+  background-color: #E74C3C;
+}
+.purple {
+  background-color: #8E44AD;
+}
+.dark-gray {
+  background-color: #7F8C8D;
+}
+.gray {
+  background-color: #95A5A6;
+}
+.light-gray {
+  background-color: #BDC3C7;
+}
+.yellow {
+  background-color: #F1C40F;
+}
+.text-dark-blue {
+  color: #34495E;
+}
+.text-green {
+  color: #16A085;
+}
+.text-blue {
+  color: #2980B9;
+}
+.text-orange {
+  color: #F39C12;
+}
+.text-red {
+  color: #E74C3C;
+}
+.text-purple {
+  color: #8E44AD;
+}
+.text-faded {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+
+hr{ 
+  background-color: rgba(0, 0, 0, 0.3)
+  
+}
+
+h1{ 
+  text-align: center;
+  
+}
+
+h4{ 
+  text-align: center;
+}
+
+p {
+  color: #999;
+}
+
+strong {
+  color: #333;
+}
+
+
+/*TABLA DE BUSQUEDA*/
+
+.search-box{
+  background: #fff;
+  padding: 3%;
+}
+.search-box input:focus{
+  box-shadow:none;
+  border:2px solid #eeeeee;
+}
+.search-list{
+  background: #fff;
+  border: 1px solid #ababab;
+  border-top: none;
+}
+.search-list h3{
+  background: #eee;
+  padding: 3%;
+  margin-bottom: 0%;
+}
+
+/*Logo*/
+
+
+
+
+
+
+
+

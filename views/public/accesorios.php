@@ -23,7 +23,6 @@
         ?>
         <!-- Card de los accesorio. -->
 
-
             <!-- Footer -->
         <!-- Llamado la clase del footer-herencia -->
         <?php
